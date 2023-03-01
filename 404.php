@@ -1,9 +1,10 @@
 <?php
+require_once "config.php";
 	$msg = "";
 	use PHPMailer\PHPMailer\PHPMailer;
 
 	if (isset($_POST['submit'])) {
-		$con = new mysqli('localhost', '', '', '');
+		
 		
 		$email = $con->real_escape_string($_POST['email']);
 	
