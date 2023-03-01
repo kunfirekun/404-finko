@@ -13,7 +13,7 @@
 		else {
 			$sql = $con->query("SELECT id FROM subscription WHERE email='$email'");
 			if ($sql->num_rows > 0) {
-				$msg = "You Have Already Subscribed!";
+				$msg = "<div style='color: red;'>You Have Already Subscribed!</div>";
 			} else {
 			
 				// List numbers 1 to 20
@@ -480,7 +480,7 @@ table{
                   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                     <tr>
                       <td style="text-align: left; padding-right: 10px;">
-                      	<p>&copy; 2021 Finko Supplies Agency. <br>All Rights Reserved</p>
+                      	<p>&copy; 2023 Finko Supplies Agency. <br>All Rights Reserved</p>
                       </td>
                     </tr>
                   </table>
@@ -733,7 +733,7 @@ table{
                     <div class="coming-soon-content">
                         <div>
                             <h1>We Are Coming Soon</h1>
-                            <p>We are almost done! If you want to get notified when the website goes live, subscribe to
+                            <p>Would you like to get notified when the website goes live? Subscribe to
                                 our mailing list and instantly get a 5% discount coupon.</p>
 <?php if ($msg != "") echo $msg . "<br><br>" ?>
 
