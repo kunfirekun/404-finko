@@ -7062,6 +7062,13 @@ footer .sub-footer {
     .subscribe-section .subsribe-input .form-control {
       border-radius: 0; }
 
+      /**=====================
+    Subsribe notification styling
+==========================**/
+.subscription-success{
+  
+}
+
 /**=====================
     offer section css start
 ==========================**/

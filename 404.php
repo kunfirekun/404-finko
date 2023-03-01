@@ -10,11 +10,11 @@ require_once "config.php";
 	
 
 		if ( $email == "" )
-			$msg = "Please Check Your Inputs!";
+			$msg = "<div class='subscription-error'>Please Check Your Inputs!</div>";
 		else {
 			$sql = $con->query("SELECT id FROM subscription WHERE email='$email'");
 			if ($sql->num_rows > 0) {
-				$msg = "<div style='color: red;'>You Have Already Subscribed!</div>";
+				$msg = "<div class='subscription-error'>You Have Already Subscribed!</div>";
 			} else {
 			
 				// List numbers 1 to 20
@@ -502,9 +502,9 @@ table{
                 ';
 
                 if ($mail->send())
-                    $msg = "You Have Been Subscribed Successfully ! Please Check Your Email!";
+                    $msg = "<div class='subscription-success'>You Have Been Subscribed Successfully ! Please Check Your Email!</div>";
                 else
-                    $msg = "Something wrong happened! Please try again!";
+                    $msg = "<div class='subscription-error'>Something wrong happened! Please try again!</div>";
 			}
 		}
 	}
