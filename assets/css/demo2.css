@@ -7066,7 +7066,10 @@ footer .sub-footer {
     Subsribe notification styling
 ==========================**/
 .subscription-success{
-  
+  color: green;
+}
+.subscription-error{
+  color: rgba(211, 11, 11, 0.963);
 }
 
 /**=====================
