@@ -7062,14 +7062,22 @@ footer .sub-footer {
     .subscribe-section .subsribe-input .form-control {
       border-radius: 0; }
 
-      /**=====================
+/**=====================
     Subsribe notification styling
 ==========================**/
-.subscription-success{
+..spansuccess{
+  font-weight: 300; 
+  border: solid green 1px; 
+  padding:8px; 
+  background-color : #9df475; 
   color: green;
 }
-.subscription-error{
-  color: rgba(211, 11, 11, 0.963);
+.spandanger{
+  font-weight: 300; 
+  border: solid red 1px; 
+  padding:8px; 
+  background-color : pink; 
+  color: red;
 }
 
 /**=====================

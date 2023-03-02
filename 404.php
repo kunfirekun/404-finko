@@ -1,20 +1,19 @@
 <?php
-require_once "config.php";
 	$msg = "";
 	use PHPMailer\PHPMailer\PHPMailer;
 
 	if (isset($_POST['submit'])) {
-		
+		$con = new mysqli('localhost', 'root', '', 'finkosup_playground');
 		
 		$email = $con->real_escape_string($_POST['email']);
 	
 
 		if ( $email == "" )
-			$msg = "<div class='subscription-error'>Please Check Your Inputs!</div>";
+			$msg = "<span class='spandanger'>Please Check Your Inputs!</span>";
 		else {
 			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email'");
 			if ($sql->num_rows > 0) {
-				$msg = "<div class='subscription-error'>You Have Already Subscribed!</div>";
+				$msg = "<span class='spandanger'>You Have Already Subscribed!</span>";
 			} else {
 			
 				// List numbers 1 to 20
@@ -502,9 +501,9 @@ table{
                 ';
 
                 if ($mail->send())
-                    $msg = "<div class='subscription-success'>You Have Been Subscribed Successfully ! Please Check Your Email!</div>";
+                    $msg = "<span class='spansuccess'>You Have Been Subscribed Successfully !</span>";
                 else
-                    $msg = "<div class='subscription-error'>Something wrong happened! Please try again!</div>";
+                    $msg = "<span class='spandanger'>Something wrong happened! Please try again!</span>";
 			}
 		}
 	}
@@ -739,7 +738,7 @@ table{
 <?php if ($msg != "") echo $msg . "<br><br>" ?>
 
                             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-                                <input class="form-control" placeholder="Enter your Email Address" name="email" type="email">
+                                <input class="form-control" placeholder="enter your email address" name="email" type="email">
                                 	<br>
                                 	<input class="btn btn-primary" type="submit" name="submit" value="Notify Me!" style="margin-top: 20px; border-radius: 5px;">
                             </form>
