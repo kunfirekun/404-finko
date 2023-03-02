@@ -7071,6 +7071,7 @@ footer .sub-footer {
   padding:8px; 
   background-color : #9df475; 
   color: green;
+  border-radius: 5px;
 }
 .spandanger{
   font-weight: 300; 
@@ -7078,6 +7079,7 @@ footer .sub-footer {
   padding:8px; 
   background-color : pink; 
   color: red;
+  border-radius: 5px;
 }
 
 /**=====================
