@@ -738,9 +738,9 @@ table{
 <?php if ($msg != "") echo $msg . "<br><br>" ?>
 
                             <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-                                <input class="form-control" placeholder="enter your email address" name="email" type="email">
+                                <input class="form-control" placeholder="Enter your Email " name="email" type="email">
                                 	<br>
-                                	<input class="btn btn-primary" type="submit" name="submit" value="Notify Me!" style="margin-top: 20px; border-radius: 5px;">
+                                	<input class="btn btn-primary" type="submit" name="submit" value="Notify Me!" style="margin-top: 10px; border-radius: 5px;">
                             </form>
                             
                             
