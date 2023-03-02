@@ -8,8 +8,10 @@ require_once "config.php";
 		
 		
         $email = $con->real_escape_string($_POST['email']);
-        
-        $email_sanitize = filter_var($email, FILTER_SANITIZE_EMAIL);
+        //convert email to lower case
+        $email_lower=strtolower($email);
+        //sanitization to remove illegal characters
+        $email_sanitize = filter_var($email_lower, FILTER_SANITIZE_EMAIL);
         // Validate email
         $email_validated=filter_var($email_sanitize, FILTER_VALIDATE_EMAIL);
        
