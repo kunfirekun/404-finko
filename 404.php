@@ -12,7 +12,7 @@ require_once "config.php";
 		if ( $email == "" )
 			$msg = "<div class='subscription-error'>Please Check Your Inputs!</div>";
 		else {
-			$sql = $con->query("SELECT id FROM subscription WHERE email='$email'");
+			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email'");
 			if ($sql->num_rows > 0) {
 				$msg = "<div class='subscription-error'>You Have Already Subscribed!</div>";
 			} else {
