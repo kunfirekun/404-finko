@@ -6,23 +6,22 @@ require_once "config.php";
 	if (isset($_POST['submit'])) {
 		
 		
-		$email = $con->real_escape_string($_POST['email']);
+		
+        $email = $con->real_escape_string($_POST['email']);
         
-        // Remove all illegal characters from email
         $email_sanitize = filter_var($email, FILTER_SANITIZE_EMAIL);
         // Validate email
-        if (filter_var($email_sanitize, FILTER_VALIDATE_EMAIL)) {
-            echo $email." is a valid email address";
-        } else {
-        echo $email." is not a valid email address";
-        }
+        $email_validated=filter_var($email_sanitize, FILTER_VALIDATE_EMAIL);
+       
+        
+
 
 	
 
 		if ( $email == "" )
 			$msg = "<span class='spandanger'>Please Check Your Inputs!</span>";
 		else {
-			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email'");
+			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email_validated'");
 			if ($sql->num_rows > 0) {
 				$msg = "<span class='spandanger'>You Have Already Subscribed!</span>";
 			} else {
@@ -38,14 +37,14 @@ require_once "config.php";
                      $time=date("d.m.Y, h:i:sa");
 
 				$con->query("INSERT INTO subscription (email,discount_code,discount_status,entry_time,used_time,acc_status)
-					VALUES ('$email', '$page', 'unused','$time','0','1');
+					VALUES ('$email_validated', '$page', 'unused','$time','0','1');
 				");
 
                 include_once "PHPMailer/PHPMailer.php";
 
                 $mail = new PHPMailer();
                 $mail->setFrom('no-reply@finkosuppliesagencies.com');
-                $mail->addAddress($email, $name);
+                $mail->addAddress($email_validated, $name);
                 $mail->Subject = "Subscription Confirmed!";
                 $mail->isHTML(true);
                 $mail->Body = '
