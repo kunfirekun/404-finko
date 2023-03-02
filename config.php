@@ -1,3 +1,3 @@
 <?php
-$con = new mysqli('localhost', '', '', 'finkosup_playground');
+$con = new mysqli('localhost', 'root', '', 'finkosup_playground');
 ?>

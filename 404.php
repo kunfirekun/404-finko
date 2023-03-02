@@ -7,6 +7,16 @@ require_once "config.php";
 		
 		
 		$email = $con->real_escape_string($_POST['email']);
+        
+        // Remove all illegal characters from email
+        $email_sanitize = filter_var($email, FILTER_SANITIZE_EMAIL);
+        // Validate email
+        if (filter_var($email_sanitize, FILTER_VALIDATE_EMAIL)) {
+            echo $email." is a valid email address";
+        } else {
+        echo $email." is not a valid email address";
+        }
+
 	
 
 		if ( $email == "" )
