@@ -2,7 +2,7 @@
         <div class="main-footer">
             <div class="container">
                 <div class="row gy-4">
-                    <div class="col-xl-4 col-lg-5 col-md-6">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="footer-contact">
                             <div class="brand-logo">
                                 <a href="https://finkosuppliesagenceis.com" class="footer-logo">
@@ -21,7 +21,7 @@
                                 <li>
                                     <span>
                                         <b>Address:</b>
-                                        <span class="font-light"> 90, Sunvalley Estate Phase 1, Langata , Police Dog Unit Road, Nairobi, Kenya.</span>
+                                        <span class="font-light"> 90, Sunvalley Estate Phase 1, Langata ,  Nairobi, Kenya.</span>
                                     </span>
                                 </li>
                                 <li>
@@ -34,7 +34,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-links">
                             <div class="footer-title">
                                 <h3>Sitemap</h3>
@@ -45,21 +45,21 @@
                                         <a href="https://finkosuppliesagencies.com" class="font-dark">Home</a>
                                     </li>
                                     <li>
-                                        <a href="shop-left-sidebar.html" class="font-dark">Shop</a>
+                                        <a href="javascript:void(0)" class="font-dark">Shop</a>
                                     </li>
                                   
                                  
                                     <li>
-                                        <a href="shop-left-sidebar.html" class="font-dark">Contact</a>
+                                        <a href="javascript:void(0)" class="font-dark">Contact</a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-links">
                             <div class="footer-title">
-                                <h3>Useful Links</h3>
+                                <h3>Your Account</h3>
                             </div>
                             <div class="footer-content">
                                 <ul>
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                         <div class="footer-links">
                             <div class="footer-title">
                                 <h3>Get Help</h3>
@@ -91,7 +91,7 @@
                                         <a href="order-tracking.html" class="font-dark">Track Orders</a>
                                     </li>
                                     <li>
-                                        <a href="faq.html" class="font-dark">Shopping FAQs</a>
+                                        <a href="faq.html" class="font-dark"> FAQs</a>
                                     </li>
                                 
                                    
@@ -131,7 +131,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <p class="mb-0 font-dark">© 2022, Finko Online Store. Made By Eazzzy Digital</p>
+                        <p class="mb-0 font-dark">© <?php $year=date('Y'); echo"$year" ?>, Finko Online Store.</p>
                     </div>
                 </div>
             </div>
