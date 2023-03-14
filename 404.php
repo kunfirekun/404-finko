@@ -44,7 +44,7 @@ require_once "config.php";
 
         //encrypt the discount code
         // code to be encrypted value
-        $discount_code_encode='12345'; 
+        $discount_code_encode=$page; 
         // user defined key2
         $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; 
         // user defined secret key2
@@ -64,7 +64,7 @@ require_once "config.php";
 		if ( $email == "" )
 			$msg = "<span class='spandanger'>Please Check Your Inputs!</span>";
 		else {
-			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email_encrypt'");
+			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email_encrypted'");
 			if ($sql->num_rows > 0) {
 				$msg = "<span class='spandanger'>You Have Already Subscribed!</span>";
 			} else {
