@@ -7065,7 +7065,7 @@ footer .sub-footer {
 /**=====================
     Subsribe notification styling
 ==========================**/
-..spansuccess{
+.spansuccess{
   font-weight: 300; 
   border: solid green 1px; 
   padding:8px; 
@@ -13953,7 +13953,7 @@ hr {
       .coming-soon-content p {
         max-width: 100%; } }
   .coming-soon-content .form-control {
-    max-width: 80%;
+    max-width: 65%;
     margin: 0px auto; }
     @media (max-width: 360px) {
       .coming-soon-content .form-control {
