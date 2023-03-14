@@ -50,7 +50,7 @@
                                   
                                  
                                     <li>
-                                        <a href="javascript:void(0)" class="font-dark">Contact</a>
+                                        <a href="javascript:void(0)" class="font-dark">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -131,7 +131,7 @@
                         </ul>
                     </div>
                     <div class="col-md-6">
-                        <p class="mb-0 font-dark">© <?php $year=date('Y'); echo"$year" ?>, Finko Online Store.</p>
+                    <p class="mb-0 font-dark">© <?php $year=date('Y'); echo"$year" ?>, Finko Supplies Agencies, Online Store.</p>
                     </div>
                 </div>
             </div>
