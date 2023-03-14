@@ -7,7 +7,7 @@
                             <div class="brand-logo">
                                 <a href="https://finkosuppliesagenceis.com" class="footer-logo">
                                     
-                                    <img src="finko-logo.png" class="img-fluid blur-up lazyload" alt="finko-logo" style='width:150px;'>
+                                    <img src="assets/images/logo/finko-logo.png" class="img-fluid blur-up lazyload" alt="finko-logo" style='width:150px;'>
                                 </a>
                             </div>
                             <ul class="contact-lists">
