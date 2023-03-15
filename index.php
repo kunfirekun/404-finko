@@ -140,7 +140,7 @@
                                             </li>
                                         </ul>
                                         <div class="add-btn">
-                                            <a href="cart.html" class="btn btn-white">Add to cart</a>
+                                            <a href="javascript:void(0)" class="btn btn-white">Add to cart</a>
                                             <a href="javascript:void:(0)" class="btn btn-solid-default ms-2">
                                                 <i class="fas fa-heart"></i>
                                             </a>
@@ -264,7 +264,7 @@
                                             </li>
                                         </ul>
                                         <div class="add-btn">
-                                            <a href="cart.html" class="btn btn-white">Add to cart</a>
+                                            <a href="javascript:void(0)" class="btn btn-white">Add to cart</a>
                                             <a href="javascript:void:(0)" class="btn btn-solid-default ms-2">
                                                 <i class="fas fa-heart"></i>
                                             </a>
@@ -389,7 +389,7 @@
                                             </li>
                                         </ul>
                                         <div class="add-btn">
-                                            <a href="cart.html" class="btn btn-white">Add to cart</a>
+                                            <a href="javascript:void(0)" class="btn btn-white">Add to cart</a>
                                             <a href="javascript:void:(0)" class="btn btn-solid-default ms-2">
                                                 <i class="fas fa-heart"></i>
                                             </a>
@@ -540,12 +540,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -586,7 +586,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$40.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -619,12 +619,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -665,7 +665,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$69.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -702,12 +702,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -748,7 +748,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$54.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -781,12 +781,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -827,7 +827,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$99.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -864,12 +864,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -910,7 +910,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$78.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -947,12 +947,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -993,7 +993,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$60.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -1026,12 +1026,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1072,7 +1072,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$85.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -1105,12 +1105,12 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="compare.html">
+                                                <a href="javascript:void(0)">
                                                     <i data-feather="refresh-cw"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="wishlist.html" class="wishlist">
+                                                <a href="javascript:void(0)" class="wishlist">
                                                     <i data-feather="heart"></i>
                                                 </a>
                                             </li>
@@ -1151,7 +1151,7 @@
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
                                         <h3 class="theme-color">$69.00</h3>
-                                        <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                        <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
                                 </div>
@@ -1180,7 +1180,7 @@
                 <div class="col-xxl-10 col-lg-9">
                     <div class="category-wrapper category-slider1 white-arrow category-arrow">
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-wrap category-padding">
+                            <a href="javascript:void(0)" class="category-wrap category-padding">
                                 <img src="assets/images/fashion/category/1.jpg" class="bg-img blur-up lazyload" alt="category image">
                                 <div class="category-content category-text-1">
                                     <h3 class="theme-color">Shoes</h3>
@@ -1189,7 +1189,7 @@
                             </a>
                         </div>
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-wrap category-padding">
+                            <a href="javascript:void(0)" class="category-wrap category-padding">
                                 <img src="assets/images/fashion/category/2.jpg" class="bg-img blur-up lazyload" alt="category image">
                                 <div class="category-content category-text-1">
                                     <h3 class="theme-color">Men</h3>
@@ -1198,7 +1198,7 @@
                             </a>
                         </div>
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-wrap category-padding">
+                            <a href="javascript:void(0)" class="category-wrap category-padding">
                                 <img src="assets/images/fashion/category/3.jpg" class="bg-img blur-up lazyload" alt="category image">
                                 <div class="category-content category-text-1">
                                     <h3 class="theme-color">Jeans</h3>
@@ -1207,7 +1207,7 @@
                             </a>
                         </div>
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-wrap category-padding">
+                            <a href="javascript:void(0)" class="category-wrap category-padding">
                                 <img src="assets/images/fashion/category/4.jpg" class="bg-img blur-up lazyload" alt="category image">
                                 <div class="category-content category-text-1">
                                     <h3 class="theme-color">Jacket</h3>
@@ -1216,7 +1216,7 @@
                             </a>
                         </div>
                         <div>
-                            <a href="shop-left-sidebar.html" class="category-wrap category-padding">
+                            <a href="javascript:void(0)" class="category-wrap category-padding">
                                 <img src="assets/images/fashion/category/3.jpg" class="bg-img blur-up lazyload" alt="category image">
                                 <div class="category-content category-text-1">
                                     <h3 class="theme-color">Jeans</h3>
@@ -1269,12 +1269,12 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="compare.html">
+                                        <a href="javascript:void(0)">
                                             <i data-feather="refresh-cw"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html" class="wishlist">
+                                        <a href="javascript:void(0)" class="wishlist">
                                             <i data-feather="heart"></i>
                                         </a>
                                     </li>
@@ -1315,7 +1315,7 @@
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
                                 <h3 class="theme-color">$78.00</h3>
-                                <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
                         </div>
@@ -1351,12 +1351,12 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="compare.html">
+                                        <a href="javascript:void(0)">
                                             <i data-feather="refresh-cw"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html" class="wishlist">
+                                        <a href="javascript:void(0)" class="wishlist">
                                             <i data-feather="heart"></i>
                                         </a>
                                     </li>
@@ -1397,7 +1397,7 @@
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
                                 <h3 class="theme-color">$60.00</h3>
-                                <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
                         </div>
@@ -1429,12 +1429,12 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="compare.html">
+                                        <a href="javascript:void(0)">
                                             <i data-feather="refresh-cw"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html" class="wishlist">
+                                        <a href="javascript:void(0)" class="wishlist">
                                             <i data-feather="heart"></i>
                                         </a>
                                     </li>
@@ -1475,7 +1475,7 @@
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
                                 <h3 class="theme-color">$85.00</h3>
-                                <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
                         </div>
@@ -1511,12 +1511,12 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="compare.html">
+                                        <a href="javascript:void(0)">
                                             <i data-feather="refresh-cw"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html" class="wishlist">
+                                        <a href="javascript:void(0)" class="wishlist">
                                             <i data-feather="heart"></i>
                                         </a>
                                     </li>
@@ -1557,7 +1557,7 @@
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
                                 <h3 class="theme-color">$69.00</h3>
-                                <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
                         </div>
@@ -1593,12 +1593,12 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="compare.html">
+                                        <a href="javascript:void(0)">
                                             <i data-feather="refresh-cw"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="wishlist.html" class="wishlist">
+                                        <a href="javascript:void(0)" class="wishlist">
                                             <i data-feather="heart"></i>
                                         </a>
                                     </li>
@@ -1639,7 +1639,7 @@
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
                                 <h3 class="theme-color">$60.00</h3>
-                                <button onclick="location.href = 'cart.html';" class="btn listing-content">Add
+                                <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
                         </div>
@@ -1699,7 +1699,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <button onclick="location.href = 'shop-left-sidebar.html';" type="button" class="btn default-light-theme default-theme mt-2">Shop
+                                <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn default-light-theme default-theme mt-2">Shop
                                     Now</button>
 
                                 <div class="timer-bg timer-bg-center d-lg-block d-none">
@@ -1772,7 +1772,7 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6">
                     <div class="collection-banner p-bottom p-center text-center">
-                        <a href="shop-left-sidebar.html" class="banner-img">
+                        <a href="javascript:void(0)" class="banner-img">
                             <img src="assets/images/fashion/banner/1.jpg" class="bg-img blur-up lazyload" alt="">
                         </a>
                         <div class="banner-detail">
@@ -1781,7 +1781,7 @@
                             </a>
                             <span class="font-dark-30">26% <span>OFF</span></span>
                         </div>
-                        <a href="shop-left-sidebar.html" class="contain-banner">
+                        <a href="javascript:void(0)" class="contain-banner">
                             <div class="banner-content with-big">
                                 <h2 class="mb-2">New Hoodie</h2>
                                 <span>BUY ONE GET ONE FREE</span>
@@ -1791,7 +1791,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="collection-banner p-bottom p-center text-center">
-                        <a href="shop-left-sidebar.html" class="banner-img">
+                        <a href="javascript:void(0)" class="banner-img">
                             <img src="assets/images/fashion/banner/2.jpg" class="bg-img blur-up lazyload" alt="">
                         </a>
                         <div class="banner-detail">
@@ -1800,7 +1800,7 @@
                             </a>
                             <span class="font-dark-30">50% <span>OFF</span></span>
                         </div>
-                        <a href="shop-left-sidebar.html" class="contain-banner">
+                        <a href="javascript:void(0)" class="contain-banner">
                             <div class="banner-content with-big">
                                 <h2 class="mb-2">Women Fashion</h2>
                                 <span>New offer 50% off</span>
@@ -1810,7 +1810,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="collection-banner p-bottom p-center text-center">
-                        <a href="shop-left-sidebar.html" class="banner-img">
+                        <a href="javascript:void(0)" class="banner-img">
                             <img src="assets/images/fashion/banner/3.jpg" class="bg-img blur-up lazyload" alt="">
                         </a>
                         <div class="banner-detail">
@@ -1819,7 +1819,7 @@
                             </a>
                             <span class="font-dark-30">36% <span>OFF</span></span>
                         </div>
-                        <a href="shop-left-sidebar.html" class="contain-banner">
+                        <a href="javascript:void(0)" class="contain-banner">
                             <div class="banner-content with-big">
                                 <h2 class="mb-2">New Jacket</h2>
                                 <span>BUY ONE GET ONE FREE</span>
@@ -1854,7 +1854,7 @@
                                 <div class="product-box">
                                     <div class="img-wrapper">
                                         <div class="top-wishlist product-color">
-                                            <a href="wishlist.html" class="heart-wishlist heart-color ms-auto">
+                                            <a href="javascript:void(0)" class="heart-wishlist heart-color ms-auto">
                                                 <i class="far fa-heart"></i>
                                             </a>
                                         </div>
@@ -1870,7 +1870,7 @@
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
                                             <h3 class="text-hide">Women T-shirt From $35</h3>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
+                                            <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -1880,7 +1880,7 @@
                                 <div class="product-box">
                                     <div class="img-wrapper">
                                         <div class="top-wishlist product-color">
-                                            <a href="wishlist.html" class="heart-wishlist heart-color ms-auto">
+                                            <a href="javascript:void(0)" class="heart-wishlist heart-color ms-auto">
                                                 <i class="far fa-heart"></i>
                                             </a>
                                         </div>
@@ -1896,7 +1896,7 @@
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
                                             <h3 class="text-hide">Women T-shirt From $35</h3>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
+                                            <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -1906,7 +1906,7 @@
                                 <div class="product-box">
                                     <div class="img-wrapper">
                                         <div class="top-wishlist product-color">
-                                            <a href="wishlist.html" class="heart-wishlist heart-color ms-auto">
+                                            <a href="javascript:void(0)" class="heart-wishlist heart-color ms-auto">
                                                 <i class="far fa-heart"></i>
                                             </a>
                                         </div>
@@ -1922,7 +1922,7 @@
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
                                             <h3 class="text-hide">Women T-shirt From $35</h3>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
+                                            <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -1932,7 +1932,7 @@
                                 <div class="product-box">
                                     <div class="img-wrapper">
                                         <div class="top-wishlist product-color">
-                                            <a href="wishlist.html" class="heart-wishlist heart-color ms-auto">
+                                            <a href="javascript:void(0)" class="heart-wishlist heart-color ms-auto">
                                                 <i class="far fa-heart"></i>
                                             </a>
                                         </div>
@@ -1948,7 +1948,7 @@
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
                                             <h3 class="text-hide">Women T-shirt From $35</h3>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
+                                            <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -1958,7 +1958,7 @@
                                 <div class="product-box">
                                     <div class="img-wrapper">
                                         <div class="top-wishlist product-color">
-                                            <a href="wishlist.html" class="heart-wishlist heart-color ms-auto">
+                                            <a href="javascript:void(0)" class="heart-wishlist heart-color ms-auto">
                                                 <i class="far fa-heart"></i>
                                             </a>
                                         </div>
@@ -1974,7 +1974,7 @@
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
                                             <h3 class="text-hide">Women T-shirt From $35</h3>
-                                            <button onclick="location.href = 'shop-left-sidebar.html';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
+                                            <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -2112,7 +2112,7 @@
                                     </ul>
                                 </div>
                                 <div class="product-btns">
-                                    <a href="cart.html" class="btn btn-solid-default btn-sm">Add to cart</a>
+                                    <a href="cart.php" class="btn btn-solid-default btn-sm">Add to cart</a>
                                     <a href="product-details.php" class="btn btn-solid-default btn-sm">View
                                         details</a>
                                 </div>
@@ -2151,9 +2151,9 @@
                                         <h5>TOTAL : <span>$1,140.00</span></h5>
                                     </div>
                                     <div class="shop-cart-button mt-3">
-                                        <a href="shop-left-sidebar.html" class="btn default-light-theme conti-button default-theme default-theme-2 rounded">CONTINUE
+                                        <a href="javascript:void(0)" class="btn default-light-theme conti-button default-theme default-theme-2 rounded">CONTINUE
                                             SHOPPING</a>
-                                        <a href="cart.html" class="btn default-light-theme conti-button default-theme default-theme-2 rounded">VIEW
+                                        <a href="javascript:void(0)" class="btn default-light-theme conti-button default-theme default-theme-2 rounded">VIEW
                                             CART</a>
                                     </div>
                                 </div>
