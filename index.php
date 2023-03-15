@@ -454,7 +454,7 @@
                 <div class="col-xl-3 ">
                     <div class="service-wrap">
                         <div class="service-icon">
-                            <span> <img src="support.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
+                            <span> <img src="assets/images/icons/support.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
                            
                         </div>
                         <div class="service-content">
@@ -466,7 +466,7 @@
                 <div class="col-xl-3 col-sm-6">
                     <div class="service-wrap">
                         <div class="service-icon">
-                        <span> <img src="sales.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
+                        <span> <img src="assets/images/icons/sales.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
                         </div>
                         <div class="service-content">
                             <h3 class="mb-2">Free Delivery</h3>
@@ -477,7 +477,7 @@
                 <div class="col-xl-3 col-sm-6">
                     <div class="service-wrap">
                         <div class="service-icon">
-                        <span> <img src="log-in.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
+                        <span> <img src="assets/images/icons/log-in.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
                         </div>
                         <div class="service-content">
                             <h3 class="mb-2">Secured Payment</h3>
@@ -488,7 +488,7 @@
                 <div class="col-xl-3 col-sm-6">
                     <div class="service-wrap">
                         <div class="service-icon">
-                        <span> <img src="money-pending.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
+                        <span> <img src="assets/images/icons/money-pending.png"  style="width: 70px; height: 70px; margin: 0px 10px 0px 0px;"></span>
                         </div>
                         <div class="service-content">
                             <h3 class="mb-2">Free Returns</h3>
