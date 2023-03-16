@@ -37,7 +37,6 @@ require_once "engine.php";
         $email_encrypted= base64_encode($result1);  
 
         //encrypt the discount code
-        // code to be encrypted value
         $discount_code_encode=getDiscountCode(); 
         // user defined key2
         $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; 
