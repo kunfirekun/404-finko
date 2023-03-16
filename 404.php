@@ -1,5 +1,6 @@
 <?php
 require_once "config.php";
+require_once "engine.php";
 	$msg = "";
 	use PHPMailer\PHPMailer\PHPMailer;
 
@@ -15,36 +16,29 @@ require_once "config.php";
         // Validate email
         $email_validated=filter_var($email_sanitize, FILTER_VALIDATE_EMAIL);
 
-        
-        // List numbers 100000 to 999999
-        $pages = range(100000,999999);
-        // Shuffle numbers
-        shuffle($pages);
-        // Get a random no
-        $page = array_shift($pages);
         // Get a date and time
         date_default_timezone_set("Africa/Nairobi");
         $time=date("d.m.Y, h:i:sa");
 
         //encryption of email
-    $email_encode=$email_validated; 
-    // user defined private key1
-    $privateKey1 	= 'NOWEINF32523EFW63HGBERV34235'; 
-    // user defined secret key1
-    $secretKey1		= 'hd203dh2bx2zp'; 
-    // encryption method
-    $encryptMethod1      = "AES-256-CBC";
-    $string1 		=$email_encode ; 
-    $key1 = hash('sha256', $privateKey1);
-    // sha256 is hash_hmac_algo
-    $ivalue1 = substr(hash('sha256', $secretKey1), 0, 16); 
-    $result1 = openssl_encrypt($string1, $encryptMethod1, $key1, 0, $ivalue1);
-    // email_encrypt is a encripted value of the user input under email_encode
-    $email_encrypted= base64_encode($result1);  
+        $email_encode=$email_validated; 
+        // user defined private key1
+        $privateKey1 	= 'NOWEINF32523EFW63HGBERV34235'; 
+        // user defined secret key1
+        $secretKey1		= 'hd203dh2bx2zp'; 
+        // encryption method
+        $encryptMethod1      = "AES-256-CBC";
+        $string1 		=$email_encode ; 
+        $key1 = hash('sha256', $privateKey1);
+        // sha256 is hash_hmac_algo
+        $ivalue1 = substr(hash('sha256', $secretKey1), 0, 16); 
+        $result1 = openssl_encrypt($string1, $encryptMethod1, $key1, 0, $ivalue1);
+        // email_encrypt is a encripted value of the user input under email_encode
+        $email_encrypted= base64_encode($result1);  
 
         //encrypt the discount code
         // code to be encrypted value
-        $discount_code_encode=$page; 
+        $discount_code_encode=getDiscountCode(); 
         // user defined key2
         $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; 
         // user defined secret key2
@@ -444,7 +438,7 @@ table{
             	<tr>
             		<td>
             			<div class="text" style="padding: 0 3em; text-align: center;">
-            				<h2>Thank You For Subscribing To Finko Supplies Agencies. Your Discount Code Is<span> '."$page".'</span>.</h2>
+            				<h2>Thank You For Subscribing To Finko Supplies Agencies. Your Discount Code Is<span> '."$discount_code_encode".'</span>.</h2>
             			</div>
             			 <div class="text" style="padding: 1em 0; text-align: center;">
             				<h2><a id="myLink" title="Click to do something"
