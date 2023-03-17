@@ -10,7 +10,7 @@ require_once "engine.php";
 		
         $email = getEncryptedUserEmail();
         $ip_address = getEncryptedUserIpAddr();
-        $discount_code = getEncryptedUserEmail();
+        $discount_code = getDiscountCode();
 
         // Get a date and time
         date_default_timezone_set("Africa/Nairobi");
@@ -20,13 +20,13 @@ require_once "engine.php";
 		if ( $email == "" )
 			$msg = "<span class='spandanger'>Please Check Your Inputs!</span>";
 		else {
-			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email_encrypted'");
+			$sql = $con->query("SELECT s_id FROM subscription WHERE email='$email'");
 			if ($sql->num_rows > 0) {
 				$msg = "<span class='spandanger'>You Have Already Subscribed!</span>";
 			} else {
 			
-				$con->query("INSERT INTO subscription (email,discount_code,discount_status,entry_time,used_time,acc_status)
-					VALUES ('$email_encrypted', '$discount_encrypted', 'unused','$time','0','1');
+				$con->query("INSERT INTO subscription (email,user_address,discount_code,discount_status,entry_time,used_time,acc_status)
+					VALUES ('$email', '$ip_address','$discount_code', 'unused','$time','0','1');
 				");
 
                 include_once "PHPMailer/PHPMailer.php";
