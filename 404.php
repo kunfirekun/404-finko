@@ -8,50 +8,13 @@ require_once "engine.php";
 		
 		
 		
-        $email = $con->real_escape_string($_POST['email']);
-        //convert email to lower case
-        $email_lower=strtolower($email);
-        //sanitization to remove illegal characters
-        $email_sanitize = filter_var($email_lower, FILTER_SANITIZE_EMAIL);
-        // Validate email
-        $email_validated=filter_var($email_sanitize, FILTER_VALIDATE_EMAIL);
+        $email = getEncryptedUserEmail();
+        $ip_address = getEncryptedUserIpAddr();
+        $discount_code = getEncryptedUserEmail();
 
         // Get a date and time
         date_default_timezone_set("Africa/Nairobi");
         $time=date("d.m.Y, h:i:sa");
-
-        //encryption of email
-        $email_encode=$email_validated; 
-        // user defined private key1
-        $privateKey1 	= 'NOWEINF32523EFW63HGBERV34235'; 
-        // user defined secret key1
-        $secretKey1		= 'hd203dh2bx2zp'; 
-        // encryption method
-        $encryptMethod1      = "AES-256-CBC";
-        $string1 		=$email_encode ; 
-        $key1 = hash('sha256', $privateKey1);
-        // sha256 is hash_hmac_algo
-        $ivalue1 = substr(hash('sha256', $secretKey1), 0, 16); 
-        $result1 = openssl_encrypt($string1, $encryptMethod1, $key1, 0, $ivalue1);
-        // email_encrypt is a encripted value of the user input under email_encode
-        $email_encrypted= base64_encode($result1);  
-
-        //encrypt the discount code
-        $discount_code_encode=getDiscountCode(); 
-        // user defined key2
-        $privateKey2 	= 'DANFOVBWEVCB432HNFC032FH2QADJ'; 
-        // user defined secret key2
-        $secretKey2		= 'g124hbfo02fg'; 
-        $encryptMethod2     = "AES-256-CBC";
-        // user defined value2
-        $string2		=$discount_code_encode ; 
-
-        $key2 = hash('sha256', $privateKey2);
-        // sha256 is hash_hmac_algo
-        $ivalue2 = substr(hash('sha256', $secretKey2), 0, 16); 
-        $result2 = openssl_encrypt($string2, $encryptMethod2, $key2, 0, $ivalue2);
-        // encrypted code is a encripted value of the discount code
-        $discount_encrypted= base64_encode($result2);  
 
 
 		if ( $email == "" )
