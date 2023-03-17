@@ -1,9 +1,9 @@
 <?php 
-require_once "config.php";
+
 //function to encrypt email
 function getEncryptedUserEmail(){
 
-    $email = $con->real_escape_string($_POST['email']);
+    $email =  $_POST['email'];
     //convert email to lower case
     $email_lower=strtolower($email);
     //sanitization to remove illegal characters
@@ -12,15 +12,15 @@ function getEncryptedUserEmail(){
     $email_validated=filter_var($email_sanitize, FILTER_VALIDATE_EMAIL);
 
     $email=$email_validated; // validated and sanitized email
-    $privateKey1 	= 'NOWEINF32523EFW63HGBERV34235'; // user defined key1
-    $secretKey1		= 'hd203dh2bx2zp'; // user defined secret key1
-    $encryptMethod1      = "AES-256-CBC";
-    $string1 		=$email ; // user defined value2
+    $privatekey_email 	= 'NOWEINF32523EFW63HGBERV34235'; // user defined key1
+    $secretkey_email		= 'hd203dh2bx2zp'; // user defined secret key1
+    $encryptmethod_email      = "AES-256-CBC";
+    $string_email 		=$email ; // validated user email
 
-    $key1 = hash('sha256', $privateKey1);
-    $ivalue1 = substr(hash('sha256', $secretKey1), 0, 16); // sha256 is hash_hmac_algo
-    $result1 = openssl_encrypt($string1, $encryptMethod1, $key1, 0, $ivalue1);
-    $encrypted_email= base64_encode($result1);  // encrypted email output
+    $key_email = hash('sha256', $privatekey_email);
+    $ivalue_email = substr(hash('sha256', $secretkey_email), 0, 16); // sha256 is hash_hmac_algo
+    $result_email = openssl_encrypt($string_email, $encryptmethod_email, $key_email, 0, $ivalue_email);
+    $encrypted_email= base64_encode($result_email);  // encrypted email output
 
     return $encrypted_email;
 }
