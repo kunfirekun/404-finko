@@ -35,7 +35,18 @@ function getDiscountCode(){
     // Get a random no
     $discount_code = array_shift($discount_gen);
 
-    return $discount_code;
+    $discount=$discount_code ;// get discount code
+    $privatekey_discount 	= '8NOJQCIPN9-runD-HFNFIQJF'; // user defined key1
+    $secretkey_discount		= '4NCaasjfj-0E2U9Edi2E'; // user defined secret key1
+    $encryptmethod_discount      = "AES-256-CBC";
+    $string_discount 		=$discount ; //discount code to be encrypted
+
+    $key_discount = hash('sha256', $privatekey_discount);
+    $ivalue_discount = substr(hash('sha256', $secretkey_discount), 0, 16); // sha256 is hash_hmac_algo
+    $result_discount = openssl_encrypt($string_discount, $encryptmethod_discount, $key_discount, 0, $ivalue_discount);
+    $encrypted_discount_code= base64_encode($result_discount);  // output encrypted discount code
+
+    return $encrypted_discount_code;
 
 }
 
