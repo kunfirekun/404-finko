@@ -1,55 +1,3 @@
-<?php
-      //whether ip is from share internet
-//if (!empty($_SERVER['HTTP_CLIENT_IP']))   
-//  {
-//    $ip_address = $_SERVER['HTTP_CLIENT_IP'];
-//  }
-//whether ip is from proxy
-//elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))  
- // {
- //   $ip_address = $_SERVER['HTTP_X_FORWARDED_FOR'];
- // }
-//whether ip is from remote address
-////else
-  //{
-  //  $ip_address = $_SERVER['REMOTE_ADDR'];
- // }
-  
-//$ip =  $ip_address;
-//$ip_info = @json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=".$ip));  
-
-//if($ip_info && $ip_info->geoplugin_countryName != null){
-//  echo 'Country = '.$ip_info->geoplugin_countryName.'<br/>';
-//  echo 'Country Code = '.$ip_info->geoplugin_countryCode.'<br/>';
-//  echo 'City = '.$ip_info->geoplugin_city.'<br/>';
-//  echo 'Region = '.$ip_info->geoplugin_region.';<br/>';
-//  echo 'Latitude = '.$ip_info->geoplugin_latitude.'<br/>';
-//  echo 'Longitude = '.$ip_info->geoplugin_longitude.'<br/>';
-//  echo 'Timezone = '.$ip_info->geoplugin_timezone.'<br/>';
-//  echo 'Continent Code = '.$ip_info->geoplugin_continentCode.'<br/>';
-//  echo 'Continent Name = '.$ip_info->geoplugin_continentName.'<br/>';
-//  echo 'Timezone = '.$ip_info->geoplugin_timezone.'<br/>';
-//  echo 'Currency Code = '.$ip_info->geoplugin_currencyCode.'<br/>';
-    
- 
-
-//}
-
-//$city=$ip_info->geoplugin_city;
- //$name = "nairobi";
- //$value = 12334;
- //setcookie($name, $value, time() + (86400 * 80), '/','finkosuppliesagencies.com', 1);
-  //86400 = 1 day
-  
-  
-  
-  
-  
-  
-?>
-
-    
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -77,7 +25,7 @@
                                     <div>
                                         <h2>Raw Ham Colorblock T-shirt</h2>
 
-                                        <div class="d-flex">
+                                       <!-- rating and reviews <div class="d-flex">
                                             <ul class="rating p-0 me-2">
                                                 <li>
                                                     <i class="fas fa-star theme-color"></i>
@@ -96,12 +44,12 @@
                                                 </li>
                                             </ul>
                                             <h6 class="text-light">( 5040 Review )</h6>
-                                        </div>
+                                        </div> -->
 
                                         <p>The international hoodies with excellent durable fabric, not to heavy but
-                                            simply PERFECT for Indian summer.</p>
-                                        <h3>$49.55 <span class="theme-color">$49.55</span></h3>
-                                        <ul class="selection-wrap">
+                                            simply PERFECT for windy and cold seasons.</p>
+                                        <h3>Ksh. 49.55 <!--<span class="theme-color">Ksh. 49.55</span>--></h3>
+                                        <!--<ul class="selection-wrap">
                                             <li>
                                                 <div class="dark-select">
                                                     <select class="form-select">
@@ -138,7 +86,8 @@
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
                                             </li>
-                                        </ul>
+                                        </ul> -->
+                                        <br>
                                         <div class="add-btn">
                                             <a href="javascript:void(0)" class="btn btn-white">Add to cart</a>
                                             <a href="javascript:void:(0)" class="btn btn-solid-default ms-2">
@@ -153,11 +102,11 @@
                                                         <img src="assets/images/social-icon/4.png" class="img-fluid blur-up lazyload" alt="social icon">
                                                     </a>
                                                 </li>
-                                                <li>
+                                               <!-- no google+ <li>
                                                     <a href="https://www.google.co.in/">
                                                         <img src="assets/images/social-icon/5.png" class="img-fluid blur-up lazyload" alt="social icon">
                                                     </a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="http://www.twitter.com/share">
                                                         <img src="assets/images/social-icon/6.png" class="img-fluid blur-up lazyload" alt="social icon">
@@ -201,7 +150,7 @@
                                 <div class="home-left-wrapper">
                                     <div>
                                         <h2>Raw Ham Colorblock T-shirt</h2>
-                                        <div class="d-flex">
+                                        <!--<div class="d-flex">
                                             <ul class="rating p-0 me-2">
                                                 <li>
                                                     <i class="fas fa-star theme-color"></i>
@@ -220,12 +169,12 @@
                                                 </li>
                                             </ul>
                                             <h6 class="text-light">( 5040 Review )</h6>
-                                        </div>
+                                        </div> -->
                                         <p>The international hoodies with excellent durable fabric, not to heavy but
-                                            simply PERFECT for Indian summer.
+                                            simply PERFECT for  summer.
                                         </p>
-                                        <h3>$49.55 <span class="theme-color">$49.55</span></h3>
-                                        <ul class="selection-wrap">
+                                        <h3>Ksh. 49.55 <!--<span class="theme-color">Ksh. 49.55</span> good for offers--></h3>
+                                        <!--<ul class="selection-wrap">
                                             <li>
                                                 <div class="dark-select">
                                                     <select class="form-select">
@@ -262,7 +211,7 @@
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
                                             </li>
-                                        </ul>
+                                        </ul>--><br>
                                         <div class="add-btn">
                                             <a href="javascript:void(0)" class="btn btn-white">Add to cart</a>
                                             <a href="javascript:void:(0)" class="btn btn-solid-default ms-2">
@@ -277,11 +226,11 @@
                                                         <img src="assets/images/social-icon/4.png" class="img-fluid blur-up lazyload" alt="social icon">
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <!-- No Google plus<li>
                                                     <a href="https://www.google.co.in/">
                                                         <img src="assets/images/social-icon/5.png" class="img-fluid blur-up lazyload" alt="social icon">
                                                     </a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="http://www.twitter.com/share">
                                                         <img src="assets/images/social-icon/6.png" class="img-fluid blur-up lazyload" alt="social icon">
@@ -319,13 +268,13 @@
                     </div>
                 </div>
                 <div>
-                    <div class="home-slider">
+                <div class="home-slider">
                         <div class="home-wrap row m-0">
                             <div class="col-xxl-3 col-lg-4 p-0 d-lg-block d-none">
                                 <div class="home-left-wrapper">
                                     <div>
                                         <h2>Raw Ham Colorblock T-shirt</h2>
-                                        <div class="d-flex">
+                                        <!--<div class="d-flex">
                                             <ul class="rating p-0 me-2">
                                                 <li>
                                                     <i class="fas fa-star theme-color"></i>
@@ -344,13 +293,12 @@
                                                 </li>
                                             </ul>
                                             <h6 class="text-light">( 5040 Review )</h6>
-                                        </div>
-
+                                        </div> -->
                                         <p>The international hoodies with excellent durable fabric, not to heavy but
-                                            simply PERFECT for Indian summer.
+                                            simply PERFECT for  summer.
                                         </p>
-                                        <h3>$49.55 <span class="theme-color">$49.55</span></h3>
-                                        <ul class="selection-wrap">
+                                        <h3>Ksh. 49.55 <!--<span class="theme-color">Ksh. 49.55</span> good for offers--></h3>
+                                        <!--<ul class="selection-wrap">
                                             <li>
                                                 <div class="dark-select">
                                                     <select class="form-select">
@@ -387,7 +335,7 @@
                                                     <i class="fas fa-chevron-down"></i>
                                                 </div>
                                             </li>
-                                        </ul>
+                                        </ul>--><br>
                                         <div class="add-btn">
                                             <a href="javascript:void(0)" class="btn btn-white">Add to cart</a>
                                             <a href="javascript:void:(0)" class="btn btn-solid-default ms-2">
@@ -402,11 +350,11 @@
                                                         <img src="assets/images/social-icon/4.png" class="img-fluid blur-up lazyload" alt="social icon">
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <!-- No Google plus<li>
                                                     <a href="https://www.google.co.in/">
                                                         <img src="assets/images/social-icon/5.png" class="img-fluid blur-up lazyload" alt="social icon">
                                                     </a>
-                                                </li>
+                                                </li> -->
                                                 <li>
                                                     <a href="http://www.twitter.com/share">
                                                         <img src="assets/images/social-icon/6.png" class="img-fluid blur-up lazyload" alt="social icon">
@@ -418,7 +366,7 @@
                                 </div>
                             </div>
                             <div class="col-xxl-9 col-lg-8 p-0 left-content">
-                                <img src="assets/images/fashion/slider/1.jpg" class="bg-img blur-up lazyload" alt="">
+                                <img src="assets/images/fashion/slider/2.jpg" class="bg-img blur-up lazyload" alt="">
                                 <div class="home-content row">
                                     <div class="col-xxl-4 col-lg-5 col-md-6 col-sm-7 col-9">
                                         <h3>Sale <span class="theme-color">70% OFF</span></h3>
@@ -585,7 +533,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$40.00</h3>
+                                        <h3 class="theme-color">Ksh. 40.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -664,7 +612,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$69.00</h3>
+                                        <h3 class="theme-color">Ksh. 69.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -747,7 +695,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$54.00</h3>
+                                        <h3 class="theme-color">Ksh. 54.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -826,7 +774,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$99.00</h3>
+                                        <h3 class="theme-color">Ksh. 99.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -909,7 +857,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$78.00</h3>
+                                        <h3 class="theme-color">Ksh. 78.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -992,7 +940,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$60.00</h3>
+                                        <h3 class="theme-color">Ksh. 60.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -1071,7 +1019,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$85.00</h3>
+                                        <h3 class="theme-color">Ksh. 85.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -1150,7 +1098,7 @@
                                                 qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                                 accusantium architecto placeat quam officia, tempore repellendus.</p>
                                         </div>
-                                        <h3 class="theme-color">$69.00</h3>
+                                        <h3 class="theme-color">Ksh. 69.00</h3>
                                         <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                             To Cart</button>
                                     </div>
@@ -1314,7 +1262,7 @@
                                         qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
-                                <h3 class="theme-color">$78.00</h3>
+                                <h3 class="theme-color">Ksh. 78.00</h3>
                                 <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
@@ -1396,7 +1344,7 @@
                                         qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
-                                <h3 class="theme-color">$60.00</h3>
+                                <h3 class="theme-color">Ksh. 60.00</h3>
                                 <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
@@ -1474,7 +1422,7 @@
                                         qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
-                                <h3 class="theme-color">$85.00</h3>
+                                <h3 class="theme-color">Ksh. 85.00</h3>
                                 <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
@@ -1556,7 +1504,7 @@
                                         qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
-                                <h3 class="theme-color">$69.00</h3>
+                                <h3 class="theme-color">Ksh. 69.00</h3>
                                 <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
@@ -1638,7 +1586,7 @@
                                         qui, minus quidem eveniet! Dolorum magnam numquam, asperiores
                                         accusantium architecto placeat quam officia, tempore repellendus.</p>
                                 </div>
-                                <h3 class="theme-color">$60.00</h3>
+                                <h3 class="theme-color">Ksh. 60.00</h3>
                                 <button onclick="location.href = 'javascript:void(0)';" class="btn listing-content">Add
                                     To Cart</button>
                             </div>
@@ -1665,7 +1613,7 @@
                                 </div>
 
                                 <h5 class="mt-3">Special Discount <span class="theme-color">70% OFF</span></h5>
-                                <h2 class="my-3 deal-text">Deal Of The Day <br>from <span class="theme-color">$75</span>
+                                <h2 class="my-3 deal-text">Deal Of The Day <br>from <span class="theme-color">Ksh. 75</span>
                                 </h2>
                                 <div class="timer-style-2 mt-xl-1 my-2 justify-content-center d-flex">
                                     <ul>
@@ -1869,7 +1817,7 @@
                                     <div class="insta-hover insta-spacing text-center">
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
-                                            <h3 class="text-hide">Women T-shirt From $35</h3>
+                                            <h3 class="text-hide">Women T-shirt From Ksh. 35</h3>
                                             <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -1895,7 +1843,7 @@
                                     <div class="insta-hover insta-spacing text-center">
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
-                                            <h3 class="text-hide">Women T-shirt From $35</h3>
+                                            <h3 class="text-hide">Women T-shirt From Ksh. 35</h3>
                                             <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -1921,7 +1869,7 @@
                                     <div class="insta-hover insta-spacing text-center">
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
-                                            <h3 class="text-hide">Women T-shirt From $35</h3>
+                                            <h3 class="text-hide">Women T-shirt From Ksh. 35</h3>
                                             <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -1947,7 +1895,7 @@
                                     <div class="insta-hover insta-spacing text-center">
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
-                                            <h3 class="text-hide">Women T-shirt From $35</h3>
+                                            <h3 class="text-hide">Women T-shirt From Ksh. 35</h3>
                                             <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -1973,7 +1921,7 @@
                                     <div class="insta-hover insta-spacing text-center">
                                         <div>
                                             <h5>New Offer -56% Discount</h5>
-                                            <h3 class="text-hide">Women T-shirt From $35</h3>
+                                            <h3 class="text-hide">Women T-shirt From Ksh. 35</h3>
                                             <button onclick="location.href = 'javascript:void(0)';" type="button" class="btn btn-light-white">Shop now <i class="fas fa-chevron-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -2077,7 +2025,7 @@
                                     <li class="font-light">(In stock)</li>
                                 </ul>
                                 <div class="price mt-3">
-                                    <h3>$20.00</h3>
+                                    <h3>Ksh. 20.00</h3>
                                 </div>
                                 <div class="color-types">
                                     <h4>colors</h4>
@@ -2148,7 +2096,7 @@
                                     <h4>Premier Cropped Skinny Jean</h4>
                                     <p class="font-light my-2">Yellow, Qty : 3</p>
                                     <div class="product-total">
-                                        <h5>TOTAL : <span>$1,140.00</span></h5>
+                                        <h5>TOTAL : <span>Ksh. 1,140.00</span></h5>
                                     </div>
                                     <div class="shop-cart-button mt-3">
                                         <a href="javascript:void(0)" class="btn default-light-theme conti-button default-theme default-theme-2 rounded">CONTINUE
@@ -2199,7 +2147,7 @@
 
 
 <?php
-     // if (!isset($_COOKIE[$name])) {    
+     // if (!isset(Ksh. _COOKIE[Ksh. name])) {    
       //  echo "<!-- Coockie Section Start -->
      //<div class='cookie-bar-section'>
          //<img src='https://finkosuppliesagencies.com/assets/images/cookie.png' alt=''>
