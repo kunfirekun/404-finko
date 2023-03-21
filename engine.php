@@ -2,8 +2,8 @@
 
 //function to encrypt email
 function getEncryptedUserEmail(){
-
-    $email =  $_POST['email'];
+    include "config.php";
+    $email =$con->real_escape_string($_POST['email']);
     //convert email to lower case
     $email_lower=strtolower($email);
     //sanitization to remove illegal characters
@@ -24,6 +24,7 @@ function getEncryptedUserEmail(){
 
     return $encrypted_email;
 }
+
 
 //function to generate random discount code
 function getDiscountCode(){
