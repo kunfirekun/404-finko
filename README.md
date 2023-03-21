@@ -20,11 +20,13 @@ __________
 __________
 
 *REAL ESCAPE STRING**
-commit ba5763882209d319ca0094f8c1735f099296aa3d (HEAD -> master, functions-test)
+fixed
+commit 4446a6cd388b19a5ea3057754f45452c867915bb (HEAD -> master, origin/master)
 Author: kunfirekun <kunfirekun@gmail.com>
-Date:   Fri Mar 17 15:27:17 2023 +0300
+Date:   Tue Mar 21 13:27:25 2023 +0300
 
-The real escape string does not run on the getEncryptedUserEmail function, look into it later to ensure its secure or find an alternative means to escape special characters in a string for use in an SQL query
+    fixed the real escape string issue on getEncryptedUserEmail
+
 
 *FUNTIONS-TEST BRANCH MERGE TO MASTER*
 commit f137c7af0c099b35dba8bd9b21f9eeb55693046d (HEAD -> master, origin/master)
